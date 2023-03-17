@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/CSS/utils.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/mobile.css" />
+    <script
+      src="https://kit.fontawesome.com/bee1918978.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navigation max-width-2 m-auto h-nav-resp">
+      <div class="nav-left">
+        <div class="logo">
+          <a href="/">
+            <img src="/img/logo-no-background.png" alt="" />
+          </a>
+        </div>
+
+        <ul class="nav-list v-class-resp">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="nav-right v-class-resp">
+        <form action="/search.html" method="get">
+          <input
+            class="form-input"
+            type="text"
+            name="query"
+            placeholder=" Article Search"
+          />
+          <button class="article-btn btn">Search</button>
+        </form>
+      </div>
+
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <div class="max-width-2 m-auto"><hr /></div>
+
+    <div class="content max-width-2 m-auto">
+      <div class="content-left">
+        <h1>SEWANUNG</h1>
+        <p>
+          Welcome to our blog website! We are a community of writers and experts
+          who are passionate about sharing our knowledge and insights on a wide
+          range of topics. Our blog covers everything from lifestyle and travel
+          to technology and business, with the aim of providing our readers with
+          valuable and engaging content.
+          <br />
+          <br />
+          We believe that everyone deserves access to quality information, and
+          our blog is dedicated to making that happen. We aim to create a space
+          where people can come together to learn, share ideas, and connect with
+          others who are interested in the same topics.
+          <br />
+          <br />
+          Whether you're looking for practical tips and advice or just want to
+          stay up-to-date on the latest trends and developments, we've got you
+          covered. Our team of writers and contributors are dedicated to
+          providing you with informative, engaging, and thought-provoking
+          content that you won't find anywhere else.
+          <br />
+          <br />
+          So take a look around, explore our articles, and join the
+          conversation. We're excited to have you here!
+        </p>
+      </div>
+      <div class="content-right">
+        <img
+          src="/img/vecteezy_team-enter-optimization-seo-ideas-for-blog-and-web-content_.jpeg"
+          alt="Write Your Own Thoughts..."
+        />
+      </div>
+    </div>
+
+    <div class="max-width-2 m-auto"><hr /></div>
+
+    <div class="home-articles max-width-2 m-auto font2">
+      <div class="year-box">
+        <h3>YEAR</h3>
+        <div>
+          <label for="year" year-box></label>
+
+          <select name="year" id="year-select">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+          </select>
+        </div>
+        <div class="radio-toggle"><input type="radio" name="year" />2022</div>
+        <div class="radio-toggle"><input type="radio" name="year" />2021</div>
+      </div>
+
+      <h3>Featured Articles</h3>
+      <div class="home-article">
+        <div class="home-article-img">
+          <a href="/blogpost.html">
+            <img src="/img/22_generated.jpg" alt=""
+          /></a>
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"
+            ><p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p></a
+          >
+          <span><h2>Author name</h2></span>
+          <span> June 6 | 8 min read </span>
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <a href="/blogpost.html">
+            <img
+              src="/img/vecteezy_concept-design-news-update-web-landing-page-information-about_6663310.jpg"
+              alt=""
+          /></a>
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"
+            ><p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p></a
+          >
+          <span><h2>Author name</h2></span>
+          <span> June 6 | 8 min read </span>
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <a href="/blogpost.html">
+            <img
+              src="/img/vecteezy_content-manager-modern-flat-concept-for-web-banner-design_5878292.jpg"
+              alt=""
+          /></a>
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"
+            ><p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p></a
+          >
+          <span><h2>Author name</h2></span>
+          <span> June 6 | 8 min read </span>
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <a href="/blogpost.html">
+            <img
+              src="/img/vecteezy_team-enter-optimization-seo-ideas-for-blog-and-web-content_.jpeg"
+              alt=""
+          /></a>
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"
+            ><p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p></a
+          >
+          <span><h2>Author name</h2></span>
+          <span> June 6 | 8 min read </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer font4">
+      <div class="contacts-icon m-auto">
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p>&copyCopyRight Reserved Since 2023.</p>
+      <a href="https://www.vecteezy.com/free-vector/blog"
+        >Graphics by Vecteezy</a
+      >
+    </div>
+    <script src="/js/responsive.js"></script>
+  </body>
+</html>

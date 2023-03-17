@@ -1,0 +1,14 @@
+.contact-content {
+  display: block;
+  margin-bottom: 15vh;
+  /* height: 70vh; */
+  /* margin-top: 25px; */
+  /* padding: 9px; */
+  /* background-color: red; */
+  overflow: hidden;
+}
+
+.contact-form {
+  /* height: 80vw; */
+  /* background-color: yellow; */
+}
